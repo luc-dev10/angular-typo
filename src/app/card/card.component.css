@@ -1,0 +1,16 @@
+.card {
+  margin: 3rem;
+  min-width: 29rem;
+  max-width: 29rem;
+}
+
+.card-text-section {
+  background-color: #f4f8fa;
+  color: #262626;
+}
+
+h1 {
+  font-size: 1.4rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.4rem;
+}
