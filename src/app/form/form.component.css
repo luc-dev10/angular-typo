@@ -1,0 +1,27 @@
+input {
+  margin: 10px 0;
+}
+
+label {
+  padding: 4px 0;
+  color: #595959;
+}
+
+input[type="text"] {
+  color: #595959;
+}
+
+.bg-input-disabled {
+  background-color: #fcfcfc;
+  color: #4d4d4d !important;
+}
+
+.bg-input-correct {
+  background-color: #e6ffe6;
+  color: #334d00 !important;
+}
+
+.bg-input-incorrect {
+  background-color: #ffe6e6;
+  color: #990000 !important;
+}

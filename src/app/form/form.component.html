@@ -1,1 +1,26 @@
-<p>form works!</p>
+<form>
+  <div class="form-group">
+    <label>Characters:</label>
+    <input
+      type="text"
+      class="form-control"
+      [value]="characters"
+      disabled
+      [ngClass]="{
+        'bg-input-disabled': !userInputAccepted,
+        'bg-input-correct': userInputAccepted && areCharMatching,
+        'bg-input-incorrect': userInputAccepted && !areCharMatching
+      }"
+    />
+  </div>
+  <div class="form-group">
+    <label>Answer:</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Your answer"
+      maxlength="28"
+      (keyup)="anwserOnChange($event)"
+    />
+  </div>
+</form>
